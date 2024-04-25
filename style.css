@@ -2,4 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+:root{
+    --dark-blue: #262E38;
+    --light-grey: #969fad;
+    --medium-grey: #7C8798;
+    --white: #FFF;
+    --orange: #FC7614;
+    --very-dark-blue: #131518;
+    --black-gradient: radial-gradient(98, 96% 98, 96% at 50% 0%, #232a34 0%, #181e27 100%);
 }
