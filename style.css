@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
-    -webkit-font-smoothing:  antialiased;
+    -webkit-font-smoothing: antialiased;
 }
-:root{
+
+:root {
     --dark-blue: #262E38;
     --light-grey: #969fad;
     --medium-grey: #7C8798;
@@ -14,7 +15,8 @@
     --very-dark-blue: #131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
 }
-body{
+
+body {
     background-color: var(--very-dark-blue);
     height: 100svh;
     display: flex;
@@ -22,41 +24,41 @@ body{
     align-items: center;
 }
 
-    .card{
-        background: var(--black-gradient);
-        max-width: 412px;
-        padding: 32px;
-        border-radius: 30px;
+.card {
+    background: var(--black-gradient);
+    max-width: 412px;
+    padding: 32px;
+    border-radius: 30px;
 
-    }
+}
 
-    .estrela{
-        background-color: var(--dark-blue);
-        width: 48px;
-        height: 48px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        margin-bottom: 30px;
-    }
+.estrela {
+    background-color: var(--dark-blue);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
 
-    .card h1 {
+.card h1 {
 
-        background-color: var(--white);
-        font-size: 28px;
-        margin-bottom: 15px;
+    background-color: var(--white);
+    font-size: 28px;
+    margin-bottom: 15px;
 
-    }
+}
 
-    .card p {
-        background-color: var(--light-grey);
-        font-size: 15px;
-        line-height: 24px;
-        margin-bottom: 24px;
-    }
+.card p {
+    background-color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
 
-.botoes button{
+.botoes button {
 
     width: 51px;
     height: 51px;
@@ -70,13 +72,13 @@ body{
     transition: all ease-in-out 0.3s;
 }
 
-.botoes{
+.botoes {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.botoes button:hover  {
+.botoes button:hover {
 
     color: var(--white);
     background-color: var(--orange);
@@ -84,13 +86,13 @@ body{
 
 }
 
-.botoes button:focus{
+.botoes button:focus {
 
     color: var(--white);
     background-color: var(--light-grey);
 }
 
-.card > a{
+.card>a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -109,12 +111,10 @@ body{
 
 }
 
-.card > a:hover{
+.card>a:hover {
 
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
 
 }
-
- 
